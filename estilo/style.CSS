@@ -32,7 +32,7 @@ body{
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor03), var(--cor05));
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor05));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -80,6 +80,16 @@ nav > a:hover {
     background-color: #3cd581;
     color: #123b24;
     
+}
+
+a {
+    color: white;
+    padding:  10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--cor01);
 }
 
 main {
@@ -183,4 +193,8 @@ footer {
     background-image: linear-gradient(to right, var(--cor04), var(--cor01));
     color: white;
     text-align: center;
+}
+
+footer > h4 {
+    padding: 10px;
 }
